@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=50px, initial-scale=0.5">
+    <title>BULB</title>
+</head>
+<body>
+    <center><img id="image" src="bulb-off.png" height="500px" size="500">
+      <div>
+    <button onclick="on()">TURN ON </button>
+    <button onclick="off()">TURN OFF</button></center>
+</div>
+    <script>
+        function on(){
+            document.getElementById("image").src="bulb-on.png";
+        }
+        function off(){
+            document.getElementById("image").src="bulb-off.png";
+        }
+    </script>
+</body>
+</html>
